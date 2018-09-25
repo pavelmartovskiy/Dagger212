@@ -3,6 +3,7 @@
     package="com.pm.dagger212">
 
   <application
+      android:name="com.pm.dagger212.App"
       android:allowBackup="true"
       android:icon="@mipmap/ic_launcher"
       android:label="@string/app_name"
