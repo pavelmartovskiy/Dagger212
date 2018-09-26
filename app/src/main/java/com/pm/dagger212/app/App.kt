@@ -1,4 +1,4 @@
-package com.pm.dagger212
+package com.pm.dagger212.app
 
 import dagger.android.support.DaggerApplication
 import javax.inject.Inject
@@ -7,7 +7,7 @@ import javax.inject.Inject
 class App : DaggerApplication() {
 
   @Inject
-  lateinit var model:AppModel
+  lateinit var model: AppModel
 
   override fun onCreate() {
     super.onCreate()
