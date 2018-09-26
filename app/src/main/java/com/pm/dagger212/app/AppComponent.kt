@@ -1,7 +1,6 @@
 package com.pm.dagger212.app
 
 import android.app.Application
-import com.pm.dagger212.common.di.ActivityBindingModule
 import com.pm.dagger212.common.di.ApplicationScope
 import dagger.BindsInstance
 import dagger.Component
@@ -13,7 +12,7 @@ import dagger.android.support.AndroidSupportInjectionModule
 @Component(
     modules = [
       AndroidSupportInjectionModule::class,
-      ActivityBindingModule::class,
+      ActivitiesBindingModule::class,
       AppModule::class])
 interface AppComponent : AndroidInjector<App> {
   @Component.Builder

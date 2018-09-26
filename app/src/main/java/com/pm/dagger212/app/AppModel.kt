@@ -6,4 +6,9 @@ class AppModel {
   fun printLogMessage() {
     Log.v("[D212]", "APP, HELLO WORLD")
   }
+
+  fun printLogMessage(customer: String) {
+    Log.v("[D212]", "APP, HELLO WORLD $customer")
+  }
+
 }

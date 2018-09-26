@@ -12,6 +12,7 @@ class App : DaggerApplication() {
   override fun onCreate() {
     super.onCreate()
     model.printLogMessage()
+    model.printLogMessage("APPLICATION")
   }
 
   override fun applicationInjector() = DaggerAppComponent.builder()
