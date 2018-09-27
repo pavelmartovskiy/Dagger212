@@ -4,11 +4,11 @@ import android.util.Log
 
 class AppModel {
   fun printLogMessage() {
-    Log.v("[D212]", "APP, HELLO WORLD")
+    Log.v("[D212]", " [${hashCode()}] APP, HELLO WORLD")
   }
 
   fun printLogMessage(customer: String) {
-    Log.v("[D212]", "APP, HELLO WORLD $customer")
+    Log.v("[D212]", "[${hashCode()}] APP, HELLO WORLD $customer")
   }
 
 }

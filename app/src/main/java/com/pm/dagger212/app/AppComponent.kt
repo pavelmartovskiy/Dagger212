@@ -13,7 +13,8 @@ import dagger.android.support.AndroidSupportInjectionModule
     modules = [
       AndroidSupportInjectionModule::class,
       ActivitiesBindingModule::class,
-      AppModule::class])
+      AppModule::class,
+      AppModule2::class])
 interface AppComponent : AndroidInjector<App> {
   @Component.Builder
   interface Builder {
